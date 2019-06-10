@@ -1,0 +1,52 @@
+,name,progression,training,Patient,Gender,Enrollment,Age.at.diagnosis,Refered,Date.of.bronchoscopy,Age.of.specimen.profiled.months,Age.at.specimen.profiled,Pack.years,COPD,Prev.History.of.LC,Lab.no.,All.samples..Biopsy.no,Histology,All.samples..Location,Common.samples,Outcone,Cohort,age_group,smoking_group,platform
+1,Regressive.1,Regressive,1,105,M,2009,67,9-Oct,2010/4/23,7,68,9,Y,0,UH10-8535,B,MOD,Rul,0,Regression,D,60-69,<20,illumina
+2,Regressive.2,Regressive,1,104,F,2009,71,9-Aug,2009/11/6,3,71,50,Y,1,UH09-21611,A and B,MOD,LUL stump,0,Regression,D,70+,40-69,illumina
+3,Regressive.3,Regressive,1,39,M,2005,57,5-Oct,2009/4/24,44,61,NA,N,0,UH09-7377,A,CIS,Trachea Anterior,1,Regression,D,60-69,NA,illumina
+4,Regressive.4,Regressive,1,108,M,2010,66,10-Oct,2011/4/15,7,67,30,N,1,UH11-8074,A,CIS,RLL,1,Regression,D,60-69,20-39,illumina
+5,Regressive.5,Regressive,1,25,M,2004,75,4-Apr,2005/12/16,21,76,84,N,0,U05-19490,A,SD,LUL stump,1,Regression,D,70+,70+,illumina
+6,Regressive.6,Regressive,1,76,M,2006,59,6-Jul,2007/4/27,10,60,60,N,1,UH07-6558,A,CIS,LUL,0,Regression,D,60-69,40-69,illumina
+7,Regressive.7,Regressive,1,95,M,2007,76,7-Jul,2008/2/1,7,77,5,N,0,UH08-1919,B,MOD,LMB,0,Regression,D,70+,<20,illumina
+8,Regressive.8,Regressive,1,64,M,2004,53,4-May,2004/5/28,1,53,33,Y,0,R2004-57,,MOD,MC,0,Regression,D,50-59,20-39,illumina
+9,Regressive.9,Regressive,1,96,M,2007,76,7-Jul,2008/2/15,8,77,50,N,0,UH08-2775,B,CIS,LUL,1,Regression,D,70+,40-69,illumina
+10,Regressive.10,Regressive,1,104,F,2009,71,9-Aug,2011/2/11,19,73,50,Y,1,UH11-3070,A,MOD,RUL,0,Regression,D,70+,40-69,illumina
+11,Regressive.11,Regressive,1,81,M,2006,76,6-Aug,2011/7/1,60,81,22,N,1,UH11-13611,B,CIS+,Posterior carina,0,Regression,D,70+,20-39,illumina
+12,Regressive.12,Regressive,1,37,M,2005,59,5-Sep,2005/9/23,1,59,45,N,0,U05-14637,H,SD,RLL,0,Regression,D,50-59,40-69,illumina
+13,Regressive.13,Regressive,1,103,M,2007,52,7-Aug,2010/10/8,39,55,70,Y,0,UH10-21748,A,Mod,Main carina,0,Regression,D,50-59,70+,illumina
+14,Regressive.14,Regressive,1,105,M,2009,67,9-Oct,2010/4/23,7,68,9,Y,0,UH10-8535,B,MOD,RIB,0,Regression,D,60-69,<20,illumina
+15,Regressive.15,Regressive,1,15,F,2002,57,2-Mar,2002/3/26,1,57,NA,N,0,U02-04550,A,MoD,LLL,0,Regression,D,50-59,NA,illumina
+16,Regressive.16,Regressive,1,6,M,2002,61,2-Apr,2003/7/25,16,62,141,N,0,U03-11555, B,SD,Lingula,0,Regression,D,60-69,70+,illumina
+21,Progressive.2,Progressive,1,60,M,2004,70,4-Feb,2008/5/2,52,74,32,N,0,UH08-7559,A,CIS,RLL Ap.Seg.,1,Progression,D,70+,20-39,illumina
+22,Progressive.3,Progressive,1,11,M,2001,75,Jan-99,2001/7/20,31,75,70,N,1,U01-09745,E,CIS,LLL stump,0,Progression,D,70+,70+,illumina
+23,Progressive.4,Progressive,1,111,M,2011,60,11-Jan,2011/2/18,2,60,40,N,0,UH11-3706,,CIS,LLL Ant.bas.seg,0,Progression,D,60-69,40-69,illumina
+24,Progressive.5,Progressive,1,81,M,2006,76,6-Aug,2010/2/19,43,80,22,N,1,UH10-3775,A,CIS,RLL Apical seg,0,Progression,D,70+,20-39,illumina
+25,Progressive.6,Progressive,1,6,M,2002,61,2-Apr,2003/12/19,21,62,141,N,0,U03-19682,F,SD,LLL Apical,0,Progression,D,60-69,70+,illumina
+26,Progressive.7,Progressive,1,12,M,2000,62,Sep-00,2004/1/9,41,66,60,N,1,U04-00389,A,CIS,LUL stump,1,Progression,D,60-69,40-69,illumina
+27,Progressive.8,Progressive,1,27,M,2000,70,Mar-00,2000/3/31,1,70,NA,N,0,U00-04131,A,CIS,LUL orifice,0,Progression,D,70+,NA,illumina
+28,Progressive.9,Progressive,1,2,F,1998,76,Feb-98,1999/3/12,14,77,50,N,0,U99-3793,A,CIS,LLL,0,Progression,D,70+,40-69,illumina
+29,Progressive.10,Progressive,1,113,M,2010,74,10-May,2011/5/6,12,75,50,Y,1,UH11-9296,A,CIS,Ant.wall of Trachea 2-3cms below cords,0,Progression,D,70+,40-69,illumina
+30,Progressive.11,Progressive,1,89,F,2007,72,7-Apr,2008/8/1,16,73,40,Y,0,UH08-13443,A,SD,RUL Post.wall,0,Progression,D,70+,40-69,illumina
+31,Progressive.12,Progressive,1,110,F,2011,65,11-Feb,2011/6/17,5,65,40,Y,0,UH11-12568,B,CIS+,LMB,1,Progression,D,60-69,40-69,illumina
+32,Progressive.13,Progressive,1,109,M,2011,58,11-Jan,2011/4/15,4,58,55,Y,0,UH11-8072,A,CIS+,RUL,1,Progression,D,50-59,40-69,illumina
+33,Progressive.14,Progressive,1,4,M,1999,65,Jun-99,2000/8/18,15,66,100,Y,0,U00-10796,A,CIS,LUL,0,Progression,D,60-69,70+,illumina
+34,Progressive.15,Progressive,1,102,M,2009,76,9-Jan,2009/3/13,3,76,59,Y,0,UH09-4667,C,CIS,LMB Prox.to LUL,1,Progression,D,70+,40-69,illumina
+35,Progressive.16,Progressive,1,102,M,2009,76,9-Jan,2010/8/27,20,77,59,Y,0,UH10-18746,B,CIS+,S/C betw.Lingula & LUL,1,Progression,D,70+,40-69,illumina
+36,Progressive.17,Progressive,1,5,M,2000,55,Jan 2000 - CIS at orifice RUL,2000/2/4,1,55,38,N,0,U00-1450,E,CIS,RUL,0,Progression,D,50-59,20-39,illumina
+39,Progressive.20,Progressive,1,9,M,1996,66,Aug-96,1999/11/19,40,69,NA,N,1,U99-16044,A,SD,LUL,0,Progression,D,60-69,NA,illumina
+19,Sample_51 Affy,Regressive,0,115,M,NA,68,2012/4/13,2012/4/13,0,68,NA,,1,,,,,NA,Regression,V,60-69,NA,affy
+210,Sample_52 Affy,Regressive,0,106,M,NA,80,2010/5/7,2014/10/3,53.66666667,84,96,,1,,,,,NA,Regression,V,70+,70+,affy
+37,Sample_57 Affy,Regressive,0,126,M,NA,74,2013/8/16,2014/4/11,7.933333333,75,58,,1,,,,,NA,Regression,V,70+,40-69,affy
+41,Sample_58 Affy,Regressive,0,127,M,NA,60,2013/9/24,2013/9/24,0,60,80,,0,,,,,NA,Regression,V,60-69,70+,affy
+51,Sample_59 Affy,Regressive,0,118,M,NA,67,2012/6/15,2013/2/15,8.166666667,68,NA,,1,,,,,NA,Regression,V,60-69,NA,affy
+61,Sample_62 Affy,Regressive,0,119,M,NA,68,2012/7/20,2013/5/20,10.13333333,69,32,,0,,,,,NA,Regression,V,60-69,20-39,affy
+71,Sample_63 Affy,Regressive,0,117,F,NA,64,2012/5/18,2012/5/18,0,64,30,Y,0,,,,,NA,Regression,V,60-69,20-39,affy
+81,Sample_64 Affy,Regressive,0,133,M,NA,57,2013/12/23,2013/12/23,0,57,NA,N,0,,,,,NA,Regression,V,50-59,NA,affy
+91,Sample_34 Affy,Progressive,0,116,F,NA,77,2012/5/11,2012/5/11,0,77,75,Y,1,,,,,NA,Progression,V,70+,70+,affy
+101,Sample_35 Affy,Progressive,0,111,M,NA,60,2011/7/29,2012/7/27,12.13333333,61,40,Y,1,,,,,NA,Progression,V,60-69,40-69,affy
+111,Sample_36 Affy,Progressive,0,123,M,NA,71,2013/4/26,2014/1/31,9.333333333,72,NA,Y,0,,,,,NA,Progression,V,70+,NA,affy
+121,Sample_37 Affy,Progressive,0,110,F,NA,65,2011/6/17,2013/5/31,23.8,67,40,Y,1,,,,,NA,Progression,V,60-69,40-69,affy
+131,Sample_38 Affy,Progressive,0,124,M,NA,81,2013/5/13,2013/9/24,4.466666667,82,40,,0,,,,,NA,Progression,V,70+,40-69,affy
+141,Sample_39 Affy,Progressive,0,126,M,NA,74,2013/8/16,2014/4/11,7.933333333,75,58,,1,,,,,NA,Progression,V,70+,40-69,affy
+151,Sample_40 Affy,Progressive,0,128,F,NA,56,2012/12/21,2013/4/5,3.5,57,55,Y,1,,,,,NA,Progression,V,50-59,40-69,affy
+161,Sample_41 Affy,Progressive,0,122,M,NA,76,2012/12/14,2012/12/14,0,76,NA,,1,,,,,NA,Progression,V,70+,NA,affy
+17,Sample_42 Affy,Progressive,0,130,F,NA,71,2014/9/1,2014/9/1,0,71,30,Y,1,,,,,NA,Progression,V,70+,20-39,affy
+18,Sample_46 Affy,Progressive,0,128,F,NA,56,2012/12/21,2012/12/21,0,56,55,Y,1,,,,,NA,Progression,V,50-59,40-69,affy
