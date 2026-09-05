@@ -1,6 +1,8 @@
 name: Temporary fetch nonlinear benchmark data
 
 on:
+  push:
+    branches: [master]
   workflow_dispatch:
   schedule:
     - cron: '*/5 * * * *'
