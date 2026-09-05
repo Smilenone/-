@@ -1,0 +1,35 @@
+name: Temporary fetch nonlinear benchmark data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/5 * * * *'
+
+permissions:
+  contents: read
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download public benchmark files
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p benchmark_data
+          curl --fail --location --retry 5 --retry-delay 2 \
+            'https://raw.githubusercontent.com/michaelsduarte/fados-ckl/main/SNLS80mV.mat' \
+            -o benchmark_data/SNLS80mV.mat
+          curl --fail --location --retry 5 --retry-delay 2 \
+            'https://raw.githubusercontent.com/PrabhuVijayan/Low-rank-approximation-of-Prior-Informed-Volterra-Kernel/main/WienerHammerBenchMark.mat' \
+            -o benchmark_data/WienerHammerBenchMark.mat
+          test "$(stat -c%s benchmark_data/SNLS80mV.mat)" -eq 2097520
+          test "$(stat -c%s benchmark_data/WienerHammerBenchMark.mat)" -eq 1707601
+          sha256sum benchmark_data/*.mat | tee benchmark_data/SHA256SUMS.txt
+      - name: Upload benchmark data
+        uses: actions/upload-artifact@v4
+        with:
+          name: nonlinear-benchmark-data
+          path: benchmark_data
+          if-no-files-found: error
+          retention-days: 1
